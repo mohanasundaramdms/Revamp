@@ -1,15 +1,10 @@
 package com.BaseClass;
 
-import java.util.Iterator;
-import java.util.Set;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import com.Utility.Utility;
 
 public abstract class BasePage {
 	public WebDriver driver;
