@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Scripts.VerifyJoinSession">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="iniateOndemandSession"/>
+          <include name="pickSession"/>
+        </methods>
+      </class> <!-- com.Scripts.VerifyJoinSession -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
